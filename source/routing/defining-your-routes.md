@@ -177,7 +177,7 @@ This router creates these routes:
     <td><code>posts.new</code></td>
     <td>↳<code>posts.js</code><br>↳<code>/posts/new.js</code></td>
     <td>↳<code>posts.js</code><br>↳<code>/posts/new.js</code></td>
-    <td>↳<code>posts.hbs</code><br>↳<code>/templates/posts/new.hbs</code></td>
+    <td>↳<code>posts.hbs</code><br>↳<code>/posts/new.hbs</code></td>
   </tr>
 </table>
 
