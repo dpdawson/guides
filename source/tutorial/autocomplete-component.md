@@ -218,7 +218,7 @@ In our example, you might notice that if you type quickly that the results might
 This is because our data filtering function is _asynchronous_, meaning that the code in the function gets scheduled for later, while the code that calls the function continues to execute.
 Often code that may make network requests is set up to be asynchronous because the server may return its responses at varying times.
 
-Lets add some protective code to ensure our results do not get out of sync with our filter input.
+Let's add some protective code to ensure our results do not get out of sync with our filter input.
 To do this we'll simply provide the filter text to the filter function, so that when the results come back we can compare the original filter value with the current filter value.
 We will update the results on screen only if the original filter value and the current filter value are the same.
 
@@ -300,7 +300,7 @@ Let's use a [component integration test](../../testing/testing-components)
 to verify our component behavior,
 similar to [how we tested our rental listing component earlier](../simple-component/#toc_an-integration-test).
 
-Lets begin by opening the component integration test created when we generated our `list-filter` component, `tests/integration/components/list-filter-test.js`.
+Let's begin by opening the component integration test created when we generated our `list-filter` component, `tests/integration/components/list-filter-test.js`.
 Remove the default test, and create a new test that verifies that by default, the component will list all items.
 
 ```tests/integration/components/list-filter-test.js{+9,+10,-11,-12,-13,-14,-15,-16,-17,-18,-19,-20,-21,-22,-23,-24,-25,-26,-27,-28}
